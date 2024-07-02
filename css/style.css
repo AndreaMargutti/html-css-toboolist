@@ -97,3 +97,10 @@ h3 {
     border-color: #6AB56A;
     color: #6AB56A;
 }
+
+.tag-list {
+    background-color: #45ABEA;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
