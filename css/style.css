@@ -1,6 +1,25 @@
 /*css reset*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*Generic*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+font-weight: 900;
+font-size: 50px;
+display: inline;
+}
+
+/*Utilities*/
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    height: 1000px;
 }
