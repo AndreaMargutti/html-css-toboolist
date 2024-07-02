@@ -23,3 +23,9 @@ display: inline;
     margin: 0 auto;
     height: 1000px;
 }
+
+/* Header */
+
+header {
+    background-color: white;
+}
