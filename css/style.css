@@ -24,7 +24,8 @@ vertical-align: middle;
 
 .container {
     max-width: 1080px;
-    margin: 0 auto;
+    margin: 30px auto;
+    background-color: white;
 }
 
 /* Header */
@@ -35,4 +36,26 @@ header {
 
 #logo {
     vertical-align: middle;
+}
+
+/*Add Todo Section*/
+
+.add {
+    font-size: 1.2rem;
+    padding: 6px 15px;
+    border-radius: 10%;
+    border: none;
+}
+
+.add.task {
+    background-color: #1e90ff;
+    color: white;
+}
+
+.add.section {
+    background: none;
+    color: #808090;
+    border-color: #808090;
+    border-style: solid;
+    border-width: thin;
 }
