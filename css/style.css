@@ -20,10 +20,6 @@ display: inline;
 vertical-align: middle;
 }
 
-hr {
-    border-block-start-style: none;
-}
-
 /*Utilities*/
 
 .container {
@@ -31,7 +27,6 @@ hr {
     margin: 30px auto;
     background-color: white;
     border-radius: 10px;
-    padding-left: 25px;
 }
 
 /* Header */
@@ -49,6 +44,8 @@ header {
 .add-todo {
     height: 70px;
     line-height: 70px;
+    border-bottom: 1px solid #F6F8F9;
+    padding-left: 30px;
 }
 
 .add {
@@ -78,4 +75,9 @@ header {
 
 .list {
     margin-top: 30px;
+    padding-left: 30px;
+}
+
+.new-task {
+    list-style-type: none;
 }
