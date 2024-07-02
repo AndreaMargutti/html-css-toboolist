@@ -81,3 +81,19 @@ header {
 .new-task {
     list-style-type: none;
 }
+
+h3 {
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.check {
+    height: 25px;
+    border: 2px solid black;
+    width: 25px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    border-color: #6AB56A;
+    color: #6AB56A;
+}
