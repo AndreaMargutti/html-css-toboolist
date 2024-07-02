@@ -40,16 +40,24 @@ header {
 
 /*Add Todo Section*/
 
+.add-todo {
+    height: 70px;
+    line-height: 70px;
+}
+
 .add {
     font-size: 1.2rem;
+    font-weight: lighter;
     padding: 6px 15px;
     border-radius: 10%;
-    border: none;
+    vertical-align: middle;
 }
 
 .add.task {
     background-color: #1e90ff;
     color: white;
+    border: none;
+    margin-right: 2px;
 }
 
 .add.section {
