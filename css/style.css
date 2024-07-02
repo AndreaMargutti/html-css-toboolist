@@ -20,12 +20,18 @@ display: inline;
 vertical-align: middle;
 }
 
+hr {
+    border-block-start-style: none;
+}
+
 /*Utilities*/
 
 .container {
     max-width: 1080px;
     margin: 30px auto;
     background-color: white;
+    border-radius: 10px;
+    padding-left: 25px;
 }
 
 /* Header */
@@ -66,4 +72,10 @@ header {
     border-color: #808090;
     border-style: solid;
     border-width: thin;
+}
+
+/* List */
+
+.list {
+    margin-top: 30px;
 }
